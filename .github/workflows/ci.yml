@@ -26,7 +26,6 @@ jobs:
         with:
           secrets: ${{ toJSON(secrets) }}
           region: ${{ env.AWS_REGION }}
-      - name : adding permission
       - run: chmod +x gradlew
 
       - uses: actions/setup-java@v3
