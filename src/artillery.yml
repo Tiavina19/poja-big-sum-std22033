@@ -7,3 +7,4 @@ config:
 scenarios:
   - flow:
       - get:
+          url: "https://o5o56ln1xb.execute-api.eu-west-3.amazonaws.com/Prod"
